@@ -3,4 +3,4 @@ project(Struktury)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Struktury main.cpp calculator.cpp calculator.h)
+add_executable(Struktury calculator.cpp calculator.h)

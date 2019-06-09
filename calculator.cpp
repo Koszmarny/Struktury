@@ -22,8 +22,7 @@ int main()
     cout<< "| [2] Odejmowanie |"<< endl;
     cout<< "| [3] Mnozenie |"<< endl;
     cout<< "| [4] Dzielenie |"<< endl;
-    cout<< "| [5] Jakim procentem jednej liczby |"<< endl;
-    cout<< "| jest druga liczba |"<< endl;
+    cout<< "| [5] Jakim procentem jednej liczby jest druga liczba |"<< endl;
     cout<< "| [6] Procent z liczby |"<< endl;
     cout<< "| [7] Pierwiastek N-tego stopnia |"<< endl;
     cout<< "| [8] Srednia artmetyczna |"<< endl;

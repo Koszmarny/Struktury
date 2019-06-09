@@ -14,13 +14,14 @@ private:
 
 public:
     PriorityQueue();
-    PriorityQueue(double[] *_elements, double size)
+    PriorityQueue(double[] elements, double size);
 
-    void attach(int value);
-    void detach(int value);
-    int front();
+    void pAttach(int value);
+    void pDetach(int value);
+    int pFront();
     bool increaseKey(int value, int newPriority);
-    bool isEmpty();
+    bool pIsEmpty();
+    void printBT(string sp, string sn, int v)
 
 };
 int main(){

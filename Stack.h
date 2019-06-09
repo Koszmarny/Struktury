@@ -7,23 +7,21 @@
 
 
 class Stack {
-private:
-    Stack *head;
-    Stack *tail;
 public:
+    int l;
+    Stack *poprzedni;
+
     Stack();
 
     ~Stack();
 
-    void push();
+    void push(Stack **s);
 
-    void pop();
+    void pop(Stack **s);
 
-    void top();
+    double size;
 
-    bool isEmpty() {
-        return head == nullptr;
-    }
+    bool isEmpty(Stack **s);
 };
 
 

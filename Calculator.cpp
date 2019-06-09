@@ -2,7 +2,7 @@
 // Created by pawel on 09.06.2019.
 //
 
-#include "calculator.h"
+#include "Calculator.h"
 
 #include <iostream>
 #include <conio.h>

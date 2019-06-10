@@ -10,18 +10,18 @@ using namespace std;
 class PriorityQueue {
 private:
     double size;
-    double[] elements;
+    double elements[];
 
 public:
     PriorityQueue();
-    PriorityQueue(double[] elements, double size);
+    PriorityQueue(double elements[]);
 
     void pAttach(int value);
     void pDetach(int value);
     int pFront();
     bool increaseKey(int value, int newPriority);
     bool pIsEmpty();
-    void printBT(string sp, string sn, int v)
+    void printBT(string sp, string sn, int v);
 
 };
 int main(){
